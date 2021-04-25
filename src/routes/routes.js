@@ -17,27 +17,27 @@ const routes = [
       {
         path: '/image-rotator',
         name: 'image-rotator',
-        component: () => import(/* webpackChunkName: "demo" */ '../views/RegularTables.vue')
+        component: () => import(/* webpackChunkName: "demo" */ '../views/ImageRotator.vue')
       },
       {
         path: '/tabbed-content',
         name: 'tabbed-content',
-        component: () => import(/* webpackChunkName: "demo" */ '../views/RegularTables.vue')
+        component: () => import(/* webpackChunkName: "demo" */ '../views/TabbedContent.vue')
       },
       {
         path: '/text-search',
         name: 'text-search',
-        component: () => import(/* webpackChunkName: "demo" */ '../views/RegularTables.vue')
+        component: () => import(/* webpackChunkName: "demo" */ '../views/TextSearch.vue')
       },
       {
         path: '/pop-up',
         name: 'pop-up',
-        component: () => import(/* webpackChunkName: "demo" */ '../views/RegularTables.vue')
+        component: () => import(/* webpackChunkName: "demo" */ '../views/PopUp.vue')
       },
       {
         path: '/table',
         name: 'table',
-        component: () => import(/* webpackChunkName: "demo" */ '../views/RegularTables.vue')
+        component: () => import(/* webpackChunkName: "demo" */ '../views/Tables.vue')
       },   
     ]
   },

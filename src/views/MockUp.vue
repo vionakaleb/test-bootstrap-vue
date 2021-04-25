@@ -75,11 +75,13 @@
       <!-- Card stats -->
       <b-row class="header-h mb-2">
         <b-col xl="1" md="" sm="">
-          <stats-card
-            type="dark"
-            class="header-h px-4 py-1">
-            <b-icon icon="arrow-left" aria-hidden="true" font-scale="3"></b-icon>
-          </stats-card>
+          <b-link to="/dashboard">
+            <stats-card
+              type="dark"
+              class="header-h px-4 py-1">
+              <b-icon icon="arrow-left" aria-hidden="true" font-scale="3"></b-icon>
+            </stats-card>
+          </b-link>
         </b-col>
         <b-col xl="8" md="" sm="">
           <stats-card
@@ -307,7 +309,7 @@
                 <stats-card
                   type="dark"
                   class="mb-4 h-100 p-5 h-100 white-bg border-0">
-                    <b-icon icon="laptop" aria-hidden="true" font-scale="2" style="position: absolute; top: 0; right: 0; border-radius: 100px; background: #D9E3F1; color: #000;"></b-icon>
+                    <b-icon icon="laptop" aria-hidden="true" font-scale="2" style="position: absolute; top: 0; right: -0.5vw; border-radius: 100px; background: #D9E3F1; color: #000;"></b-icon>
                     <h2 class="mb-3 text-center text-uppercase">Pengkajian Awal Pasien Rawat Inap</h2>
                     <b-row>
                       <b-col md="5" sm="12" class="font-weight-bold ml-5">
@@ -366,65 +368,18 @@
   import BaseProgress from '@/components/BaseProgress';
   import StatsCard from '@/components/Cards/StatsCard';
 
-  // Tables
-  import SocialTrafficTable from './Dashboard/SocialTrafficTable';
-  import PageVisitsTable from './Dashboard/PageVisitsTable';
-
   export default {
     components: {
       BaseProgress,
-      StatsCard,
-      PageVisitsTable,
-      SocialTrafficTable
+      StatsCard
     },
     data() {
       return {
-        // bigLineChart: {
-        //   allData: [
-        //     [0, 20, 10, 30, 15, 40, 20, 60, 60],
-        //     [0, 20, 5, 25, 10, 30, 15, 40, 40]
-        //   ],
-        //   activeIndex: 0,
-        //   chartData: {
-        //     datasets: [
-        //       {
-        //         label: 'Performance',
-        //         data: [0, 20, 10, 30, 15, 40, 20, 60, 60],
-        //       }
-        //     ],
-        //     labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-        //   },
-        //   extraOptions: chartConfigs.blueChartOptions,
-        // },
-        // redBarChart: {
-        //   chartData: {
-        //     labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-        //     datasets: [{
-        //       label: 'Sales',
-        //       data: [25, 20, 30, 22, 17, 29]
-        //     }]
-        //   },
-        //   extraOptions: chartConfigs.blueChartOptions
-        // }
       };
     },
     methods: {
-      initBigChart(index) {
-        let chartData = {
-          datasets: [
-            {
-              label: 'Performance',
-              data: this.bigLineChart.allData[index]
-            }
-          ],
-          labels: ['May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-        };
-        this.bigLineChart.chartData = chartData;
-        this.bigLineChart.activeIndex = index;
-      }
     },
     mounted() {
-      this.initBigChart(0);
     }
   };
 </script>
