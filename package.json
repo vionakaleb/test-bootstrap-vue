@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-vue-argon-dashboard",
+  "name": "bootstrap-vue",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -55,5 +55,5 @@
     "not ie <= 10"
   ],
   "author": "Creative Tim - https://www.creative-tim.com/",
-  "description": "BootstrapVue Argon Dashboard"
+  "description": "BootstrapVue"
 }

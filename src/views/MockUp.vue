@@ -173,10 +173,10 @@
             <b-row class="mb-3">
               <b-col md="4" class="text-uppercase font-weight-bold text-underline">Tanda-Tanda Vital<b-icon icon="justify" aria-hidden="true" font-scale="2"></b-icon></b-col>
               <b-col md="2" class="align-self-center">
-                <div class="font-weight-bold" style="font-size: 0.8rem; border-radius: 5px; background: #D0CECF;">H+3</div>
+                <div class="font-weight-bold p-2" style="font-size: 0.8rem; border-radius: 5px; background: #D0CECF;">H+3</div>
               </b-col>
               <b-col md="6" class="align-self-center">
-                <div style="font-size: 0.8rem; border-radius: 5px; background: #F2F2F2;">Last Update: <u class="text-uppercase font-weight-bold">SELASA, 27 OKT 2020, 06.30 WIB.</u></div>
+                <div class="p-2" style="font-size: 0.8rem; border-radius: 5px; background: #F2F2F2;">Last Update: <u class="text-uppercase font-weight-bold">SELASA, 27 OKT 2020, 06.30 WIB.</u></div>
               </b-col>
             </b-row>
             <b-row>
@@ -248,24 +248,29 @@
             sub-title=""
             class="mb-4 container-h">
             <h4 class="text-center text-uppercase my-3">Riwayat Berobat</h4>
-            <div class="d-flex flex-column mx-5" style="border-left: 5px solid #B0AAB0;">
-              <div class="w-100 my-4 ml-3">
+            <div class="d-flex flex-column mx-4" style="border-left: 5px solid #B0AAB0;">
+              <div class="w-100 my-4 ml-5">
+                <b-icon icon="circle" aria-hidden="true" font-scale="3" style="position: absolute; left: 1.2vw; border: 8px solid; border-radius: 100px; background: #fff; color: #002060;"></b-icon>
                 <h2 class="m-0 font-weight-bold text-underline">25 Okt 2020</h2>
                 <h3 class="m-0 font-weight-bold text-underline">IGD-RANAP</h3>
               </div>
-              <div class="w-100 my-4 ml-3">
+              <div class="w-100 my-4 ml-5">
+                <b-icon icon="circle" aria-hidden="true" font-scale="3" style="position: absolute; left: 1.2vw; border: 8px solid; border-radius: 100px; background: #fff; color: #002060;"></b-icon>
                 <h2 class="m-0">3 Okt 2020</h2>
                 <h3 class="m-0">RAJAL</h3>
               </div>
-              <div class="w-100 my-4 ml-3">
+              <div class="w-100 my-4 ml-5">
+                <b-icon icon="circle" aria-hidden="true" font-scale="3" style="position: absolute; left: 1.2vw; border: 8px solid; border-radius: 100px; background: #fff; color: #002060;"></b-icon>
                 <h2 class="m-0">4 Sept 2020</h2>
                 <h3 class="m-0">RAJAL</h3>
               </div>
-              <div class="w-100 my-4 ml-3">
+              <div class="w-100 my-4 ml-5">
+                <b-icon icon="circle" aria-hidden="true" font-scale="3" style="position: absolute; left: 1.2vw; border: 8px solid; border-radius: 100px; background: #fff; color: #002060;"></b-icon>
                 <h2 class="m-0">20 Jun 2020</h2>
                 <h3 class="m-0">IGD</h3>
               </div>
-              <div class="w-100 my-4 ml-3">
+              <div class="w-100 my-4 ml-5">
+                <b-icon icon="circle" aria-hidden="true" font-scale="3" style="position: absolute; left: 1.2vw; border: 8px solid; border-radius: 100px; background: #fff; color: #002060;"></b-icon>
                 <h2 class="m-0">1 Feb 2020</h2>
                 <h3 class="m-0">IGD-RANAP</h3>
               </div>
@@ -435,6 +440,7 @@
 
 .card-stats .card-body {
   padding: 0;
+  color: #000 !important;
 }
 
 .header-h {
