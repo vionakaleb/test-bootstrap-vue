@@ -7,7 +7,7 @@
                 
             </navbar-toggle-button>
             <router-link class="navbar-brand" to="/">
-                <img :src="logo" class="navbar-brand-img" alt="...">
+                <img class="navbar-brand-img" src="https://bootstrap-vue.org/_nuxt/icons/icon_512x512.67aef2.png">
             </router-link>
 
             <slot name="mobile-right">

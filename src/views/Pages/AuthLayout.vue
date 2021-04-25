@@ -9,7 +9,7 @@
     >
       <div slot="brand" class="navbar-wrapper">
         <b-navbar-brand to="/">
-          <img src="img/brand/white.png">
+          <img class="navbar-brand-img" src="https://bootstrap-vue.org/_nuxt/icons/icon_512x512.67aef2.png">
         </b-navbar-brand>
       </div>
 
@@ -18,7 +18,7 @@
          <b-row>
            <b-col cols="6" class="collapse-brand">
              <router-link to="/">
-               <img src="img/brand/green.png">
+               <img class="navbar-brand-img" src="https://bootstrap-vue.org/_nuxt/icons/icon_512x512.67aef2.png">
              </router-link>
            </b-col>
            <b-col cols="6" class="collapse-close">
