@@ -3,140 +3,166 @@
     <base-header class="pb-7 pt-2">
       <!-- Card stats -->
       <b-row class="header-h mb-2">
-          <b-col xl="1" md="" sm="">
-              <stats-card title=""
-                      type="dark"
-                      sub-title=""
-                      icon="ni ni-chart-pie-35"
-                      class="header-h">
-              </stats-card>
-          </b-col>
-          <b-col xl="8" md="" sm="">
-              <stats-card title="Rawat Jalan"
-                      type="dark"
-                      sub-title=""
-                      icon="ni ni-chart-pie-35"
-                      class="header-h">
-              </stats-card>
-          </b-col>
-          <b-col xl="3" md="" sm="">
-              <stats-card title=""
-                      type="dark"
-                      sub-title=""
-                      icon="ni ni-chart-pie-35"
-                      class="header-h">
-              </stats-card>
-          </b-col>
+        <b-col xl="1" md="" sm="">
+          <stats-card
+            type="dark"
+            icon="ni ni-chart-pie-35"
+            class="header-h p-2">
+          </stats-card>
+        </b-col>
+        <b-col xl="8" md="" sm="">
+          <stats-card
+            type="dark"
+            icon="ni ni-chart-pie-35"
+            class="header-h p-2">
+              <h1 class="ml-2 text-uppercase">Rawat Jalan</h1>
+          </stats-card>
+        </b-col>
+        <b-col xl="3" md="" sm="">
+          <stats-card
+            type="dark"
+            icon="ni ni-chart-pie-35"
+            class="header-h p-2">
+          </stats-card>
+        </b-col>
       </b-row>
       <b-row class="header-h mb-2">
-          <b-col xl="2" md="" sm="">
-              <stats-card title="Nama (Usia)"
-                      type="dark"
-                      sub-title=""
-                      icon="ni ni-chart-pie-35"
-                      class="header-h">
-              </stats-card>
-          </b-col>
-          <b-col xl="2" md="" sm="">
-              <stats-card title="Tanggal Lahir"
-                      type="dark"
-                      sub-title=""
-                      class="header-h">
-              </stats-card>
-          </b-col>
-          <b-col xl="2" md="" sm="">
-              <stats-card title="Nomor Rekam Medis"
-                      type="dark"
-                      sub-title=""
-                      class="header-h">
-              </stats-card>
-          </b-col>
-          <b-col xl="3" md="" sm="">
-              <stats-card title="DPJP"
-                      type="dark"
-                      sub-title=""
-                      class="header-h">
-              </stats-card>
-          </b-col>
-          <b-col xl="3" md="" sm="">
-              <stats-card title="Anda Masuk Sebagai"
-                      type="dark"
-                      sub-title=""
-                      icon="ni ni-chart-pie-35"
-                      class="header-h">
-              </stats-card>
-          </b-col>
+        <b-col xl="2" md="" sm="">
+          <stats-card
+            type="dark"
+            class="header-h m-0 p-1 text-center">
+              <h5 class="m-0 text-uppercase">Nama (Usia)</h5>
+              <h1 class="m-0 text-uppercase">Ny. Mariana (23)</h1>
+          </stats-card>
+        </b-col>
+        <b-col xl="2" md="" sm="">
+          <stats-card
+            type="dark"
+            class="header-h m-0 p-1 text-center">
+              <h5 class="m-0 text-uppercase">Tanggal Lahir</h5>
+              <h1 class="m-0 text-uppercase">13 Jan 1997</h1>
+          </stats-card>
+        </b-col>
+        <b-col xl="2" md="" sm="">
+          <stats-card
+            type="dark"
+            class="header-h m-0 p-1 text-center">
+              <h5 class="m-0 text-uppercase">Nomor Rekam Medis</h5>
+              <h1 class="m-0 text-uppercase">001234567</h1>
+          </stats-card>
+        </b-col>
+        <b-col xl="3" md="" sm="">
+          <stats-card
+            type="dark"
+            class="header-h m-0 p-1 text-center">
+              <h5 class="m-0 text-uppercase">DPJP</h5>
+              <h1 class="m-0 text-uppercase">dr. Febri Bahari, SpPD, KGEH</h1>
+          </stats-card>
+        </b-col>
+        <b-col xl="3" md="" sm="">
+          <stats-card
+            type="dark"
+            class="header-h m-0 p-1 text-center">
+              <h5 class="m-0 text-uppercase">Anda Masuk Sebagai</h5>
+              <h1 class="m-0 text-uppercase">dr. Dany Petra, SpPD</h1>
+          </stats-card>
+        </b-col>
       </b-row>
       <b-row class="mb-2">
         <b-col md="6" sm="12">
-            <b-row class="header-h mb-2">
-                <b-col md="12">
-                    <stats-card title="Keluhan Utama"
-                        type="dark"
-                        sub-title=""
-                        class="header-h">
-                    </stats-card>
-                </b-col>
-            </b-row>
-            <b-row class="header-h mb-2">
-                <b-col md="12">
-                    <stats-card title="Diagnosis Primer & Sekunder"
-                        type="dark"
-                        sub-title=""
-                        class="header-h">
-                    </stats-card>
-                </b-col>
-            </b-row>
+          <b-row class="header-h mb-2">
+            <b-col md="12">
+              <stats-card
+                type="dark"
+                class="header-h m-0 p-1 text-center">
+                  <h5 class="m-0 text-uppercase">Keluhan Utama</h5>
+                  <h2 class="m-0 text-capitalize">KU: Muntah berdarah sejak 1 hari yang lalu.</h2>
+              </stats-card>
+            </b-col>
+          </b-row>
+          <b-row class="header-h mb-2">
+            <b-col md="12">
+              <stats-card
+                type="dark"
+                class="header-h m-0 p-1 text-center">
+                  <h5 class="m-0 text-uppercase">Diagnosis Primer & Sekunder</h5>
+                  <h2 class="m-0 text-capitalize">DP: Esophageal varices with bleeding (l85.01) ...</h2>
+              </stats-card>
+            </b-col>
+          </b-row>
         </b-col>
         <b-col md="6" sm="12">
-            <stats-card title="Tanda-Tanda Vital"
-                      type="dark"
-                      sub-title=""
-                      icon="ni ni-chart-pie-35"
-                      class="header2-h">
-              </stats-card>
+          <stats-card
+            type="dark"
+            class="header2-h">
+            <b-row>
+              <b-col class="text-uppercase">Tanda-Tanda Vital</b-col>
+              <b-col>H+3</b-col>
+              <b-col>Last Update: SELASA, 27 OKT 2020, 06.30 WIB.</b-col>
+            </b-row>
+            <b-row>
+              <b-col></b-col>
+              <b-col></b-col>
+              <b-col></b-col>
+              <b-col></b-col>
+              <b-col></b-col>
+              <b-col></b-col>
+            </b-row>
+          </stats-card>
         </b-col>
       </b-row>
       <b-row class="header-h mb-2">
-          <b-col md="12">
-            <card type="default" header-classes="bg-transparent" class="header-h">Tab</card>
-          </b-col>
+        <b-col md="12">
+          <card type="default" header-classes="bg-transparent" class="header-h p-0">
+            <b-tabs pills class="p-2">
+              <b-tab title="Tab 1" active></b-tab>
+              <b-tab title="Tab 2"></b-tab>
+            </b-tabs>
+          </card>
+        </b-col>
       </b-row>
     </base-header>
 
     <b-container fluid class="mt--7">
-        <b-row>
-          <b-col xl="2" md="4" sm="12">
-              <stats-card title="Riwayat Berobat"
-                      type="dark"
-                      sub-title=""
-                      class="mb-4 container-h">
-              </stats-card>
-          </b-col>
-          <b-col xl="10" md="8" sm="12">
-              <card type="default" header-classes="bg-transparent" class="mb-4 container-h">
-                  <b-row class="h-100">
-                      <b-col xl="2" md="4" sm="12" class="h-100">
-                            <stats-card title=""
-                                type="dark"
-                                sub-title=""
-                                class="mb-4 h-100">
-                            </stats-card>
-                      </b-col>
-                      <b-col xl="10" md="8" sm="12" class="h-100">
-                          <stats-card title="Pengkajian Awal Pasien Rawat Inap"
-                                type="dark"
-                                sub-title=""
-                                class="mb-4 h-100">
-                                <template slot="footer">
-                                    <span class="text-success mr-2">Keluhan Utama</span>
-                                    <span class="text-nowrap">Riwayat Penyakit Sekarang</span>
-                                </template>
-                            </stats-card>
-                      </b-col>
-                  </b-row>
-              </card>
-          </b-col>
+      <b-row>
+        <b-col xl="2" md="4" sm="12">
+          <stats-card title="Riwayat Berobat"
+            type="dark"
+            sub-title=""
+            class="mb-4 container-h">
+          </stats-card>
+        </b-col>
+        <b-col xl="10" md="8" sm="12">
+          <card type="default" header-classes="bg-transparent" class="mb-4 container-h">
+            <b-row class="h-100">
+              <b-col xl="2" md="4" sm="12" class="h-100">
+                <stats-card title=""
+                  type="dark"
+                  sub-title=""
+                  class="mb-4 h-100">
+                  <b-card no-body>
+                    <b-tabs pills card vertical>
+                      <b-tab title="Tab 1" active><b-card-text>Tab contents 1</b-card-text></b-tab>
+                      <b-tab title="Tab 2"><b-card-text>Tab contents 2</b-card-text></b-tab>
+                      <b-tab title="Tab 3"><b-card-text>Tab contents 3</b-card-text></b-tab>
+                    </b-tabs>
+                  </b-card>
+                </stats-card>
+              </b-col>
+              <b-col xl="10" md="8" sm="12" class="h-100">
+                <stats-card title="Pengkajian Awal Pasien Rawat Inap"
+                  type="dark"
+                  sub-title=""
+                  class="mb-4 h-100">
+                  <template slot="footer">
+                    <span class="text-success mr-2">Keluhan Utama</span>
+                    <span class="text-nowrap">Riwayat Penyakit Sekarang</span>
+                  </template>
+                </stats-card>
+              </b-col>
+            </b-row>
+          </card>
+        </b-col>
       </b-row>
     </b-container>
 
