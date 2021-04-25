@@ -7,7 +7,7 @@
           :link="{
             name: 'Dashboard',
             path: '/dashboard',
-            icon: 'ni ni-tv-2 text-primary',
+            icon: 'ni ni-tv-2 text-success',
           }"
         >
         </sidebar-item>
@@ -57,7 +57,7 @@
                 :link="{
                   name: 'Mockup',
                   path: '/mockup',
-                  icon: 'ni ni-bullet-list-67 text-red'
+                  icon: 'ni ni-tv-2 text-primary'
                 }">
         </sidebar-item>
       </template>

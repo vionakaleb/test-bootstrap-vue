@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <base-header class="pb-6 pb-8 pt-5 pt-md-8">
     </base-header>
 
@@ -16,6 +15,9 @@
           <button class="nav prev">Prev</button>
           <button class="nav next">Next</button>
         </nav>
+		<nav>
+          <button @click='location.reload()'>*Reload page first</button>
+        </nav>
       </div>
     </b-container>
   </div>
@@ -25,33 +27,32 @@
     components: {
     },
   };
+	window.addEventListener('load', () => {
+		var
+			carousels = document.querySelectorAll('.carousel')
+		;
 
-  window.addEventListener('load', () => {
-	var
-		carousels = document.querySelectorAll('.carousel')
-	;
+		for (var i = 0; i < carousels.length; i++) {
+			carousel(carousels[i]);
+		}
+	});
 
-	for (var i = 0; i < carousels.length; i++) {
-		carousel(carousels[i]);
-	}
-});
-
-function carousel(root) {
-	var
-		figure = root.querySelector('figure'),
-		nav = root.querySelector('nav'),
-		images = figure.children,
-		n = images.length,
-		gap = root.dataset.gap || 0,
-		bfc = 'bfc' in root.dataset,
+	function carousel(root) {
+		var
+			figure = root.querySelector('figure'),
+			nav = root.querySelector('nav'),
+			images = figure.children,
+			n = images.length,
+			gap = root.dataset.gap || 0,
+			bfc = 'bfc' in root.dataset,
+			
+			theta =  2 * Math.PI / n,
+			currImage = 0
+		;
 		
-		theta =  2 * Math.PI / n,
-		currImage = 0
-	;
-	
-	setupCarousel(n, parseFloat(getComputedStyle(images[0]).width));
-	window.addEventListener('resize', () => { 
-		setupCarousel(n, parseFloat(getComputedStyle(images[0]).width)) 
+		setupCarousel(n, parseFloat(getComputedStyle(images[0]).width));
+		window.addEventListener('resize', () => { 
+			setupCarousel(n, parseFloat(getComputedStyle(images[0]).width)) 
 	});
 
 	setupNavigation();

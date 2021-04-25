@@ -7,7 +7,7 @@
           <h3 class="mb-0">Table Data</h3>
         </b-col>
         <b-col class="text-right">
-          <a href="/mockup" class="btn btn-sm btn-primary">Lihat lengkap</a>
+          <b-link to="/mockup" class="btn btn-sm btn-primary">Lihat lengkap</b-link>
         </b-col>
       </b-row>
     </template>
