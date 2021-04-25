@@ -2,26 +2,26 @@
   <div class="mt-5 p-5" id="PopUp">
     <button
       type="button"
-      class="btn primary"
+      class="btn btn-primary"
       @click="showModal"
     >
-      Buka Modal 1
+      Normal Modal
     </button>
 
     <button
       type="button"
-      class="btn success"
+      class="btn btn-warning"
       @click="showModal2"
     >
-      Buka Modal 2
+      Big Modal
     </button>
 
     <button
       type="button"
-      class="btn warning"
+      class="btn btn-success"
       @click="showModal3"
     >
-      Buka Modal 3
+      Small Modal
     </button>
 
     <Modal

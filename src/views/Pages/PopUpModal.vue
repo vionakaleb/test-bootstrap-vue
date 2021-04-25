@@ -100,7 +100,7 @@
   .modal-header {
     position: relative;
     border-bottom: 1px solid #eeeeee;
-    color: #4AAE9B;
+    color: #5E72E4;
     justify-content: space-between;
   }
 
@@ -123,13 +123,13 @@
     padding: 10px;
     cursor: pointer;
     font-weight: bold;
-    color: #4AAE9B;
+    color: #5E72E4;
     background: transparent;
   }
 
   .btn-green {
     color: white;
-    background: #4AAE9B;
+    background: #5E72E4;
     border: 1px solid #4AAE9B;
     border-radius: 2px;
   }
