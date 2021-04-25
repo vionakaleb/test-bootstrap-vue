@@ -11,6 +11,9 @@
             <b-row align-v="center" slot="header">
               <b-col>
                 <h1 class="text-light text-uppercase">Test Coding</h1>
+                <a href="http://frontend.kerjajarakjauh.id/">
+                  <button>Soal disini</button>
+                </a>
               </b-col>
             </b-row>
           </card>
