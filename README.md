@@ -1,6 +1,9 @@
+## MockUp Preview:
+
 ![alt text](https://i.ibb.co/TBYBPF0/tes.jpg)
 
-## Installation
+
+## Installation & Running the App
 
 ```
 yarn install
